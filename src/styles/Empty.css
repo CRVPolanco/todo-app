@@ -1,0 +1,8 @@
+.EmptyContainer{
+  width: 100%;
+  height: auto;
+}
+.EmptyContainer p{
+  text-align: center;
+  font-size: 28px;
+}

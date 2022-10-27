@@ -1,0 +1,16 @@
+:root{
+  --principal-color: #242424;
+  --secondary-color: #1a1a1a;
+  --complementary-color: rgba(152, 76, 200);
+  --light-color: #FFFFFF;
+  --lighter-color: #f1f1f1;
+}
+body{
+  font-family: 'Courier New', Courier, monospace;
+  background-color: var(--principal-color);
+  color: var(--light-color);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+}

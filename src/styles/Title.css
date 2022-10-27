@@ -1,0 +1,24 @@
+.SectionTitleContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.SectionTitleContainer h1{
+  margin: 0;
+  padding: 20px 0;
+}
+.SectionTitleContainer h2{
+  padding: 20px 0;
+  margin: 0;
+  text-align: center;
+}
+.SectionTitleContainer .TasksTitle--loading{
+  text-align: center;
+  opacity: 0.1;
+}
+.SectionTitleContainer .TasksTitle.false{
+  text-align: center;
+  opacity: 1;
+}

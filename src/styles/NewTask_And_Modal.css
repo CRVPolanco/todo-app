@@ -1,0 +1,22 @@
+.ButtonNewTask{
+  position: fixed;
+  color: #FFFFFF;
+  height: 61px;
+  width: 61px;
+  border-radius: 50%;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--secondary-color);
+  border: 3px solid var(--complementary-color);
+  box-shadow: 1px 2px 4px 2px var(--complementary-color);
+  font-size: 48px;
+  transition: all 0.25s;
+  cursor: pointer;
+  z-index: 10;
+}
+.ButtonNewTask:hover{
+  transform: rotate(45deg) scale(1.1);
+}
+.ButtonNewTask:focus{
+  transform: scale(1.1) rotate(45deg);
+}

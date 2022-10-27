@@ -1,0 +1,119 @@
+.ListItems{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 85%;
+  height: auto;
+  margin: 25px auto 0 auto;
+  padding: 0 0 40px 0;
+  gap: 24px;
+}
+.ListItems .Item{
+  list-style: none;
+  width: 376px;
+  max-width: 412px;
+  padding: 16px;
+  border: 3px solid var(--secondary-color);
+  box-shadow: 2px 4px 6px 7px var(--secondary-color);
+  transition: all 0.25s;
+  z-index: 1;
+  position: relative;
+}
+.ListItems .Item p{
+  margin: 24px 0 20px 0;
+  height: auto;
+}
+.ListItems .Item .LineThrough{
+  text-decoration: line-through;
+}
+.ListItems .Item .NotLineThrough{
+  text-decoration: none;
+}
+.ListItems .Item:hover{
+  transform: translateY(-8px);
+  box-shadow: 2px 4px 6px 7px var(--complementary-color);
+  border: 3px solid var(--complementary-color);
+}
+.Item span{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  border-radius: 50%;
+  border: 2px solid #FFFFFF;
+  background-color: #FFFFFF;
+}
+.Item .CompletedTask{
+  background-image: url('../assets/completed.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.Item .UncompletedTask{
+  background-image: url('../assets/fail-svgrepo-com.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.Item .ButtonsCompletedOrDelete{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  top: 0;
+  left: 0;
+  background-color: rgba(5,7,12, 0.75);
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 2;
+  transition: all 0.30s;
+}
+.Item:hover .ButtonsCompletedOrDelete{
+  visibility: visible;
+  opacity: 1;
+}
+.ButtonsCompletedOrDelete button{
+  display: inline-block;
+  margin: 0 24px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.CompletedButton{
+  width: 60px;
+  height: 60px;
+  background-image: url('../assets/icons8-check-mark-96.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.EditButton{
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  background: url('../assets/edit-svgrepo-com.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.UncompletedButton{
+  width: 60px;
+  height: 60px;
+  background-image: url('../assets/delete-svgrepo-com.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.RemoveButton{
+  width: 55px;
+  height: 55px;
+  background-image: url('../assets/remove-icon.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
