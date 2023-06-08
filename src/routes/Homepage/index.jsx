@@ -1,14 +1,14 @@
 import React from 'react';
-import { Header } from './TodoHeader';
-import { Title } from './Title';
-import { Search } from './Search';
-import { List } from './List';
-import { Item } from './Item';
-import { Loading } from './Loading'
-import { ButtonNewTask } from './ButtonNewTask';
-import { useTasks } from './useTasks';
-import { Empty } from './Empty';
-import { ChangeAlert } from './ChangeAlert'
+import { Header } from '../../components/TodoHeader';
+import { Title } from '../../components/Title';
+import { Search } from '../../components/Search';
+import { List } from '../../components/List';
+import { Item } from '../../components/Item';
+import { Loading } from '../../components/Loading'
+import { ButtonNewTask } from '../../components/ButtonNewTask';
+import { useTasks } from '../../hooks/useTasks';
+import { Empty } from '../../components/Empty';
+import { ChangeAlert } from '../../components/ChangeAlert'
 import { useNavigate } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 

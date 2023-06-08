@@ -1,7 +1,7 @@
 import React from "react";
 import { useLocation, useParams } from "react-router-dom";
-import { TaskForm } from "./TaskForm";
-import { useTasks } from "./useTasks";
+import { TaskForm } from "../../components/TaskForm";
+import { useTasks } from "../../hooks/useTasks";
 
 function EditPage(){
 

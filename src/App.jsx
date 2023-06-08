@@ -1,9 +1,9 @@
 import React from "react";
 import { HashRouter, Route, Routes } from "react-router-dom";
-import { EditPage } from "./EditPage";
-import { HomePage } from "./HomePage";
-import { NewTodo } from "./NewTask";
-import { NotFound } from "./NotFound";
+import { EditPage } from "./routes/EditPage";
+import { HomePage } from "./routes/Homepage";
+import { NewTodo } from "./routes/NewTodo";
+import { NotFound } from "./routes/NotFound";
 
 function App(){
   return(
