@@ -1,6 +1,6 @@
 import React from "react";
 import { useStorageListener } from "../../hooks/useStorageListener";
-import '../styles/ChangeAlert.css';
+import '../../styles/ChangeAlert.css';
 
 function ChangeAlert({ reSincronize }){
 

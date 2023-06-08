@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/NewTask_And_Modal.css'
+import '../../styles/NewTask_And_Modal.css'
 
 function ButtonNewTask({ onClick }){
 

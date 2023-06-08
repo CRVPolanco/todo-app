@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "vite",
     "host": "vite --host",
+    "deploy": "gh-pages -d dist",
+    "pre:deploy": "vite build && gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview"
   },

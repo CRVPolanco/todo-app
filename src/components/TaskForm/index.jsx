@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import '../styles/ModalContainer.css'
+import '../../styles/ModalContainer.css'
 
 function TaskForm(props){
 

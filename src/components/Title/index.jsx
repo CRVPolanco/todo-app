@@ -1,5 +1,5 @@
 import React from "react"
-import '../styles/Title.css';
+import '../../styles/Title.css';
 
 function Title({allTasks, finalizedTasks, loading}){
 

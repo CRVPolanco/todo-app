@@ -1,5 +1,5 @@
 import React from "react";
-import '../styles/Search.css';
+import '../../styles/Search.css';
 import { useNavigate } from 'react-router-dom';
 
 function Search({searchState, setSearchState, loading}){

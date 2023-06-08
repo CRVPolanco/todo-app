@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/ListItems.css';
+import '../../styles/ListItems.css';
 
 function List({loading, onLoading, filtedTasks, searchState, allTasks, onEmpty, onEmptySearch, children, sincronize, render}){
 
